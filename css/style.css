@@ -1,3 +1,37 @@
+body {
+  background: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #2196f3;
+}
+.interactive:hover;
+.interactive:focus;
+ {
+  color: #2196f3;
+  list-style: none
+}
+.black-text {
+  color: #212121;
+}
+.blue-text {
+  color: #2196f3;
+}
+.e-mail {
+  color: #2196f3;
+}
+.link-text {
+  font-weight: bold;
+  font-size: 18px;
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+}
 /* main color: #757575; */
 /* secondary color: #212121; */
 /* white color: #FFFFFF; */
