@@ -1,41 +1,47 @@
+:root {
 --main-color: #757575;
 --secondary-color: #212121;
 --white-color: #FFFFFF;
 --accent-color: #2196F3;
 --footer-background: #2F303A;
+}
 body {
   background: #ffffff;
   font-family: "Roboto", sans-serif;
-  color: var {--main-color}
+  color: var(--main-color)
 }
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  color: var {--accent-color};
+  color: var(--accent-color);
+}
+ul{
+    list-style: none;
 }
 .interactive:hover,
 .interactive:focus {
-  color: #var {--accent-color};
-  list-style: none;
+  color: var(--accent-color);
+  
+}
+.list {
+     list-style: none;
+     color: var(--secondary-color);
 }
 .black-text {
-  color: var {--secondary-color1;
-}
-.blue-text {
-  color: var {--accent-color};
+  color: var(--secondary-color1);
 }
 .e-mail {
-  color: var {--accent-color};
+  color: var(--accent-color);
 }
 .link-text {
   font-weight: bold;
   font-size: 18px;
-  color: var {--secondary-color};
+  color: var(--secondary-color);
 }
 .hero {
   font-weight: 900;
   font-size: 44px;
-  color: var {--white-color};
+  color: var(--white-color);
   background-color: rgba(47, 48, 58, 0.8);
   background-size: width: 1600px;
     height: 600px;
@@ -43,23 +49,37 @@ body {
 /* .hero-order { */
     color: #FFFFFF;
 }
-ul {
-  list-style: none;
-}
+
 .section-title {
     font-size: 14px;
     line-height: 16px;
-    color: var {--secondary-color};
+    color: var(--secondary-color);
 }
 .paragraph {
     font-size: 14px;
     line-height: 24px;
-    color: var {--main-color};
+    color: var(--main-color);
 }
 h2 {
-    color: var {--secondary-color};
+    color: var(--secondary-color);
 }
 /* .section-text {  */
-    color: vr {--white-color};
+    color: var(--white-color);
 }
+.button {
+    position: absolute;
+width: 200px;
+height: 50px;
+left: 1185px;
+top: 2764px;
 
+}
+.button.primary
+{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+.button.secondry {
+    color: var(--white-color);
+    background-color: var(--footer-background);
+}
