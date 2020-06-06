@@ -69,6 +69,11 @@ h2 {
 /* .section-text {  */
     color: var(--white-color);
 }
+.footer {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
 .button {
     position: absolute;
 width: 200px;
@@ -77,12 +82,17 @@ left: 1185px;
 top: 2764px;
 
 }
-.button.primary
+.button-primary
 {
     color: var(--white-color);
     background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
 }
-.button.secondry {
+.button-secondry {
     color: var(--white-color);
     background-color: var(--footer-background);
+    font-weight: normal;
+    font-size: 16px;
 }
