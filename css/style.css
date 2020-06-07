@@ -8,15 +8,21 @@
 body {
   background: #ffffff;
   font-family: "Roboto", sans-serif;
-  color: var(--main-color)
+  color: var(--main-color);
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.2;
 }
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: var(--accent-color);
+  font-size: 26px;
+  line-height: 1.2;
 }
 .black-text.interactive.current {
-    color: var(--accent-color);
+  color: var(--accent-color);
+ 
 }
 ul{
     list-style: none;
@@ -32,6 +38,7 @@ ul{
 }
 .black-text {
   color: var(--secondary-color1);
+  letter-spacing: 0.02em;
 }
 .e-mail {
   color: var(--accent-color);
@@ -75,7 +82,7 @@ h2 {
     line-height: 16px;
 }
 .button {
-
+  font-family: inherit;
 }
 .button-primary
 {
