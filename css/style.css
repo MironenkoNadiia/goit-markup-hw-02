@@ -15,7 +15,7 @@ body {
 }
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   color: var(--accent-color);
   font-size: 26px;
   line-height: 1.2;
@@ -44,12 +44,12 @@ ul{
   color: var(--accent-color);
 }
 .link-text {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   color: var(--secondary-color);
 }
 .hero {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 44px;
   line-height: 1.2;
   color: var(--white-color);
@@ -57,9 +57,10 @@ ul{
   background-size: width: 1600px;
   height: 600px;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 .hero-order {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87px;
   letter-spacing: 0.06em;
@@ -81,7 +82,7 @@ h2 {
     color: var(--white-color);
 }
 .footer {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
 }
@@ -92,14 +93,14 @@ h2 {
 {
     color: var(--white-color);
     background-color: var(--accent-color);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 30px;
 }
 .button-secondry {
     color: var(--white-color);
     background-color: var(--footer-background);
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
 }
 .button-nav {
