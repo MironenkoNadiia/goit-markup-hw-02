@@ -22,6 +22,11 @@ a { text-decoration: none;
   font-size: 26px;
   line-height: 1.2;
 }
+.black-logo {
+  color: var(
+    --secondary-color
+  );
+}
 .black-text.interactive.current {
   color: var(--accent-color);
  
